@@ -1,0 +1,13 @@
+.container{
+	 display:flex;
+	 flex-direction: column;
+	 background-color: #f0f0f0;
+}
+
+.collapse{
+
+	border:box-border;
+	border-radius: 3vw;
+	background-color: #F0F0F0;
+	
+}

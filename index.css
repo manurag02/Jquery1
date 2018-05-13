@@ -1,5 +1,4 @@
 
-
 .collapse{
     height: 15vw;
 	border:box-border;
@@ -167,23 +166,29 @@ input[type=button]:hover{
 .close:hover{
 	color: grey;
 }
-@media only screen and (max-width:1100px) 
+@media only screen and (max-width:1300px) 
 {
 .collapse{
-	height: 20vw;
+	height: 50vw;
 }	
 
 .title{
 	height: 4vw;
+	font-size: 3vw;
 }
 .hide{
-	height: 12vw;
-	font-size: 1.6vw;
+	height: 35vw;
+	font-size: 3vw;
 
 }
 
 .search{
 	height: 2vw;
+}
+
+.searchb{
+	height: 3.5vw;
+	font-size: 2vw;
 }
 .dropdown_menu1{
 	top:29vw;
@@ -193,68 +198,15 @@ input[type=button]:hover{
 @media only screen and (max-width: 800px)
 {
 .collapse{
-	height: 40vw;
+	height: 80vw;
 }	
 
 .title{
-	height: 5vw;
+	height: 4vw;
+	font-size: 4vw;
 }
 .hide{
-	height: 20vw;
-	font-size: 3vw;
-
-}
-
-.navbar{
-	height: 6vw;
-}
-
-.navb{
-	font-size: 3vw;
-}
-
-.home{
-	font-size: 3vw;
-}
-
-.link{
-	font-size: 3vw;
-}
-
-.disabled{
-	font-size: 3vw;
-}
-
-.dropdown{
-	font-size: 3vw;
-}
-
-.dropdown_menu1{
-	top:41vw;
-	left: 33vw;
-}
-
-.search{
-	width: 12vw;
-}
-
-.infobox{
-	height: 30vw;
-	width: 30vw;
-}
-}
-
-@media only screen and (max-width: 500px)
-{
-.collapse{
 	height: 60vw;
-}	
-
-.title{
-	height: 6vw;
-}
-.hide{
-	height: 35vw;
 	font-size: 4vw;
 
 }
@@ -284,7 +236,7 @@ input[type=button]:hover{
 }
 
 .dropdown_menu1{
-	top:41vw;
+	top:90vw;
 	left: 33vw;
 }
 
@@ -292,19 +244,71 @@ input[type=button]:hover{
 	width: 12vw;
 }
 
+.searchb{
+	height: 3.5vw;
+	font-size: 2vw;
+}
 .infobox{
-	height: 40vw;
-	width: 40vw;
+	height: 30vw;
+	width: 30vw;
+}
 }
 
-}
-
-@media only screen and (max-width: 499px)
+@media only screen and (max-width: 500px)
 {
- .dropdown_menu1{
-	top:68vw;
+.collapse{
+	height: 80vw;
+}	
+
+.title{
+	height: 4vw;
+	font-size: 4vw;
+}
+.hide{
+	height: 60vw;
+	font-size: 4vw;
+
+}
+
+.navbar{
+	height: 6vw;
+}
+
+.navb{
+	font-size: 3vw;
+}
+
+.home{
+	font-size: 3vw;
+}
+
+.link{
+	font-size: 3vw;
+}
+
+.disabled{
+	font-size: 3vw;
+}
+
+.dropdown{
+	font-size: 3vw;
+}
+
+.dropdown_menu1{
+	top:90vw;
 	left: 33vw;
 }
 
-
+.search{
+	width: 12vw;
 }
+.searchb{
+	height: 3.5vw;
+	font-size: 2vw;
+}
+.infobox{
+	height: 60vw;
+	width: 50vw;
+}
+}
+

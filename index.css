@@ -184,7 +184,9 @@ input[type=button]:hover{
 .search{
 	height: 2vw;
 }
-
+.dropdown_menu1{
+	top:29vw;
+}
 }
 
 @media only screen and (max-width: 800px)
@@ -227,7 +229,7 @@ input[type=button]:hover{
 }
 
 .dropdown_menu1{
-	top:40vw;
+	top:41vw;
 	left: 33vw;
 }
 
@@ -281,7 +283,7 @@ input[type=button]:hover{
 }
 
 .dropdown_menu1{
-	top:40vw;
+	top:41vw;
 	left: 33vw;
 }
 
@@ -293,5 +295,15 @@ input[type=button]:hover{
 	height: 40vw;
 	width: 40vw;
 }
+
+}
+
+@media only screen and (max-width: 499px)
+{
+ .dropdown_menu1{
+	top:68vw;
+	left: 33vw;
+}
+
 
 }

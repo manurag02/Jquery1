@@ -193,15 +193,15 @@ input[type=button]:hover{
 @media only screen and (max-width: 800px)
 {
 .collapse{
-	height: 30vw;
+	height: 40vw;
 }	
 
 .title{
-	height: 4vw;
+	height: 5vw;
 }
 .hide{
 	height: 20vw;
-	font-size: 2vw;
+	font-size: 3vw;
 
 }
 
@@ -247,7 +247,7 @@ input[type=button]:hover{
 @media only screen and (max-width: 500px)
 {
 .collapse{
-	height: 55vw;
+	height: 60vw;
 }	
 
 .title{
@@ -255,7 +255,7 @@ input[type=button]:hover{
 }
 .hide{
 	height: 35vw;
-	font-size: 3vw;
+	font-size: 4vw;
 
 }
 

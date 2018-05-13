@@ -31,8 +31,8 @@ $(document).ready(function($) {
   //Code to display Modal
   $('#dispmod').click(function(){
       $('.infobox').css('display','block');
-      $('.container').css("opacity","0"); 
-       $('#dispmod').css("opacity","0");
+      $('.container').css("opacity","0.3"); 
+       $('#dispmod').css("opacity","0.3");
        
       
   });

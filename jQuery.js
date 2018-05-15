@@ -8,7 +8,6 @@ $(document).ready(function($) {
     
     $(this).next().slideToggle().siblings('.collapse .hide').slideUp();
   
-    return false;
      
   });
 
@@ -61,6 +60,15 @@ $(document).ready(function($) {
     
   });
 
-   
+   $('body').on('click',function(e){
+  if(!$(e.target).closest('.infobox,#dispmod').length) {//check if the element clicked is the modal body or the children of the modal
+      //hide the modal if its not
+       $('.infobox').css('display','none');
+       $('.container').css("opacity","1");
+       $('#dispmod').css("opacity","1");
+  }
+});
 
 });
+
+   
